@@ -1,0 +1,12 @@
+{
+  "name": "gayane-cv",
+  "version": "1.0.0",
+  "description": "Gayane Vahanyan's CV Website",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve ."
+  },
+  "dependencies": {
+    "serve": "^14.2.1"
+  }
+} 

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gayane Vahanyan - CV</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body class="light-theme">
+    <div class="smm-bg">
+        <!-- SMM SVG icons for background -->
+        <svg class="smm-icon smm-icon1" viewBox="0 0 32 32"><circle cx="16" cy="16" r="14" fill="#4f46e5" fill-opacity="0.12"/><path d="M16 6l4 8h-8l4-8zm0 20a8 8 0 100-16 8 8 0 000 16z" fill="#4f46e5" fill-opacity="0.18"/></svg>
+        <svg class="smm-icon smm-icon2" viewBox="0 0 32 32"><rect x="6" y="10" width="20" height="12" rx="4" fill="#c084fc" fill-opacity="0.13"/><path d="M10 16h12" stroke="#c084fc" stroke-width="2" stroke-linecap="round"/></svg>
+        <svg class="smm-icon smm-icon3" viewBox="0 0 32 32"><path d="M16 6c-5.5 0-10 3.6-10 8 0 2.2 1.3 4.2 3.4 5.7L8 26l5.1-2.7c.9.2 1.9.3 2.9.3 5.5 0 10-3.6 10-8s-4.5-8-10-8z" fill="#818cf8" fill-opacity="0.13"/></svg>
+        <svg class="smm-icon smm-icon4" viewBox="0 0 32 32"><rect x="8" y="8" width="16" height="16" rx="8" fill="#4f46e5" fill-opacity="0.09"/><path d="M12 16h8M16 12v8" stroke="#4f46e5" stroke-width="2" stroke-linecap="round"/></svg>
+        <svg class="smm-icon smm-icon5" viewBox="0 0 32 32"><path d="M16 4a12 12 0 100 24 12 12 0 000-24zm0 18a6 6 0 110-12 6 6 0 010 12z" fill="#c084fc" fill-opacity="0.09"/></svg>
+    </div>
+    <div class="controls">
+        <div class="language-switcher">
+            <button onclick="changeLanguage('en')" class="active">EN</button>
+            <button onclick="changeLanguage('ru')">RU</button>
+            <button onclick="changeLanguage('am')">AM</button>
+        </div>
+        <button onclick="toggleTheme()" class="theme-toggle">
+            <span class="light">🌞</span>
+            <span class="dark">🌙</span>
+        </button>
+    </div>
+
+    <div class="container">
+        <div class="profile-section">
+            <div class="profile-image">
+                <img src="image.png" alt="Gayane Vahanyan">
+            </div>
+            <h1 class="name">Gayane Vahanyan</h1>
+            <p class="description" data-en="Adaptable, loving, cheerful and hard-working. Great ability to work in a team. Quick to adapt to the environment. Dutiful."
+               data-ru="Адаптивная, любящая, жизнерадостная и трудолюбивая. Отличная способность работать в команде. Быстро адаптируется к окружающей среде. Исполнительная."
+               data-am="Հարմարվող եմ,արագ եմ  սովորում, պարտաճանաչ եմ,ուրախ և աշխատասեր: Թիմում աշխատելու մեծ ունակություն ունեմ։ Արագ հարմարվում եմ միջավայրին:">
+            </p>
+        </div>
+
+        <section class="education">
+            <h2 data-en="EDUCATION" data-ru="ОБРАЗОВАНИЕ" data-am="ԿՐԹՈՒԹՅՈՒՆ"></h2>
+            <div class="timeline-item">
+                <div class="year">2013-2025</div>
+                <div class="details">
+                    <h3 data-en="LUSARAT SECONDARY SCHOOL" 
+                        data-ru="СРЕДНЯЯ ШКОЛА ЛУСАРАТ" 
+                        data-am="ԼՈՒՍԱՌԱՏԻ ՄԻՋՆԱԿԱՐԳ ԴՊՐՈՑ"></h3>
+                    <p data-en="Graduated" 
+                       data-ru="Օкончил" 
+                       data-am="Ավարտել եմ"></p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="year">2023-2024</div>
+                <div class="details">
+                    <h3>SOVORIR.IT</h3>
+                    <p>SMM</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="experience">
+            <h2 data-en="WORK EXPERIENCE" data-ru="ОПЫТ РАБОТЫ" data-am="ԱՇԽԱՏԱՆՔԱՅԻՆ ՓՈՐՁ"></h2>
+            <div class="timeline-item">
+                <div class="year">2023-2024</div>
+                <div class="details">
+                    <h3>SMM Armenia</h3>
+                    <p data-en="I packed business pages for online businesses, held a press conference"
+                       data-ru="Я вела бизнес-страницы для онлайн-бизнеса, проводила пресс-конференцию"
+                       data-am="Ես վարել եմ բիզնես էջեր օնլայն բիզնեսների համար, անցկացրել եմ խորհրդատվություններ նորաբաց էջերի համար օնլայն տարբերակով։"></p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="year">2025</div>
+                <div class="details">
+                    <h3>BUSINESS Armenia</h3>
+                    <p data-en="I have founded a small business, I pack unique gifts for different occasions. I had a similar business earlier, but I closed it due to lack of orders"
+                       data-ru="Я основала небольшой бизнес, упаковываю уникальные подарки для разных случаев. Раньше у меня был похожий бизнес, но я закрыла его из-за отсутствия заказов"
+                       data-am="Ունեմ  փոքրիկ  բիզնես,փաթեթավորում եմ նվերներ  տարբեր  առիթների համար։Նախկինում նույնպես  ունեցել  եմ նմանատիպը,սակայն  պատվերների  բացակայության պատճառով փակել եմ  այն։"></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="languages">
+            <h2 data-en="LANGUAGES" data-ru="ЯЗЫКИ" data-am="ԼԵԶՈՒՆԵՐ"></h2>
+            <ul>
+                <li data-en="English" data-ru="Английский" data-am="Անգլերեն"></li>
+                <li data-en="Russian" data-ru="Русский" data-am="Ռուսերեն"></li>
+                <li data-en="Armenian" data-ru="Армянский" data-am="Հայերեն"></li>
+            </ul>
+        </section>
+
+        <section class="contact">
+            <h2 data-en="CONTACT" data-ru="КОНТАКТЫ" data-am="ԿՈՆՏԱԿՏՆԵՐ"></h2>
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <div class="contact-icon">📱</div>
+                    <a href="tel:+37477881827" class="contact-link">+374 77 881 827</a>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">✉️</div>
+                    <a href="mailto:vahanyangayane10@gmail.com" class="contact-link">vahanyangayane10@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">📍</div>
+                    <div class="contact-text">
+                        <span data-en="Ararat region, Lusarat village" 
+                              data-ru="Араратская область, село Лусарат" 
+                              data-am="Արարատի մարզ, գյուղ Լուսառատ"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
